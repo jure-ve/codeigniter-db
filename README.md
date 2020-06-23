@@ -1,3 +1,8 @@
+# Installation
+Installation is best done via Composer. Assuming Composer is installed globally, you may use the following command:
+
+> composer require natanfelles/codeigniter-db
+
 # Database Commands for CodeIgniter 4
 
 Adds the following commands to the *Database* group:
@@ -22,7 +27,7 @@ Map the `NatanFelles\CodeIgniter\DB` namespace to the *src* folder of this proje
 
 For example:
 
-Open the *application/Config/Autoload.php* file and add a `$psr4` index like this:
+Open the *app/Config/Autoload.php* file and add a `$psr4` index like this:
 
 ```php
 $psr4['NatanFelles\CodeIgniter\DB'] = ROOTPATH . 'codeigniter-db/src';
